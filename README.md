@@ -6,7 +6,7 @@ The Digital Signature Verification project demonstrates the process of securing 
 
 This project utilizes OpenSSL, a robust toolset for implementing cryptographic functions like key generation, signing, and verification.
 
-\rule
+---
 
 Prerequisites
 
@@ -14,7 +14,7 @@ Before starting, ensure the following:
 	•	OpenSSL is installed on your system.
 	•	You have a file to sign (e.g., contract.txt).
 
- \hrule
+---
 
 Steps
 
@@ -34,13 +34,13 @@ Step 4: Verify the file
 
 openssl dgst -sha256 -verify public_key.pem -signature signature contract.txt
 
-\hrule 
+---
 
 Expected Output
 	•	If the file is authentic and unaltered, OpenSSL will confirm the verification.
 	•	If the file has been tampered with or the signature does not match, verification will fail.
 
- \hrule
+---
 
 Project Structure
 
@@ -50,14 +50,14 @@ Project Structure
 ├── contract.txt            # File to be signed (example)
 ├── signature               # Generated signature
 
-\hrule
+---
 
 Notes
 	•	The SHA256 algorithm is used for hashing to ensure strong security.
 	•	Always keep your private key secure and do not share it with anyone.
 	•	The public key can be distributed to those who need to verify the signature.
 
-\hrule
+---
 
 License
 
