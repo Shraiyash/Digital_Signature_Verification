@@ -6,7 +6,7 @@ The Digital Signature Verification project demonstrates the process of securing 
 
 This project utilizes OpenSSL, a robust toolset for implementing cryptographic functions like key generation, signing, and verification.
 
-\hrule
+\rule
 
 Prerequisites
 
