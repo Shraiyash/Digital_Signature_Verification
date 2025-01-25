@@ -11,4 +11,3 @@ openssl dgst -sha256 -sign private_key.pem -out signature contract.txt
 
 Step 4: Verify the file
 openssl dgst -sha256 -verify public_key.pem -signature signature contract.txt
-![image](https://github.com/user-attachments/assets/389bb995-7628-43fb-a5bc-cee8cd556ce3)
