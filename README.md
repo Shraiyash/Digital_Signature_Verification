@@ -45,9 +45,13 @@ Expected Output
 Project Structure
 
  Digital_Signature_Verification/
+ 
 ├── private_key.pem         # Generated private key
+
 ├── public_key.pem          # Derived public key
+
 ├── contract.txt            # File to be signed (example)
+
 ├── signature               # Generated signature
 
 ---
